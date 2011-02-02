@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://empower.github.com/pirum/">
+    <title>Empower Campaign's PEAR channel Latest Releases</title>
+    <link href="http://empower.github.com/pirum/" />
+    <author>
+        <name>http://empower.github.com/pirum/</name>
+    </author>
+
+
+</feed>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>empower.github.com/pirum</name>
+  <summary>Empower Campaign's PEAR channel</summary>
+  <alias>empower</alias>
+  <url>http://empower.github.com/pirum/</url>
+</server>
