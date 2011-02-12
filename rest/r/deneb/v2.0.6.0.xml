@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/deneb">Deneb</p>
+    <c>empower.github.com/pirum</c>
+    <v>0.6.0</v>
+    <a>0.6.0</a>
+    <mp>5.0.0</mp>
+    <st>alpha</st>
+    <l>New BSD License</l>
+    <m>shupp</m>
+    <s>Simple CRUD layer for DB based models</s>
+    <d>Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors</d>
+    <da>2011-02-12 10:29:31</da>
+    <n>
+* Removed all trailing whitespace
+* Updated doc blocks
+* Updated Deneb_Object_Interface to include __unset(), __isset(), and get()
+* Fixed incorrect reference to options in Deneb_Collection_Common
+* Added protected fields - fields not returned by get()
+* Update README.md
+ </n>
+    <f>15743</f>
+    <g>http://empower.github.com/pirum//get/Deneb-0.6.0</g>
+    <x xlink:href="package.0.6.0.xml"/>
+</r>
