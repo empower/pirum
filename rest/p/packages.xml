@@ -4,6 +4,7 @@
   <p>Deneb</p>
   <p>EC_XHProf</p>
   <p>Noginn_RateLimit</p>
+  <p>PHP_CodeSniffer_Standards_EC</p>
   <p>ZendX</p>
   <p>Zend_Cache_Backend_Mock</p>
 
