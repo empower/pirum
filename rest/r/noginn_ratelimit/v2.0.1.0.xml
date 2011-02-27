@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/noginn_ratelimit">Noginn_RateLimit</p>
+    <c>empower.github.com/pirum</c>
+    <v>0.1.0</v>
+    <a>0.1.0</a>
+    <mp>5.0.0</mp>
+    <st>alpha</st>
+    <l>MIT License</l>
+    <m>shupp</m>
+    <s>A simple rate limiting component for the Zend Framework</s>
+    <d>This is the empower fork of the project</d>
+    <da>2011-02-27 14:04:42</da>
+    <n>
+* Initial release
+ </n>
+    <f>6105</f>
+    <g>http://empower.github.com/pirum//get/Noginn_RateLimit-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

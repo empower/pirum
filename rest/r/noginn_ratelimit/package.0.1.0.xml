@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Noginn_RateLimit</name>
+ <channel>empower.github.com/pirum</channel>
+ <summary>A simple rate limiting component for the Zend Framework</summary>
+ <description>This is the empower fork of the project</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>hostmaster@shupp.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-02-27</date>
+ <time>14:04:42</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT License</license>
+ <notes>
+* Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="695cb5bfb5c989099cc962ae62adc5ad" name="example/application/controllers/IndexController.php" role="doc" />
+   <file baseinstalldir="/" md5sum="feeeab94190e75b6d417a6322fe0bcf1" name="example/application/forms/Login.php" role="doc" />
+   <file baseinstalldir="/" md5sum="5048eab3b6b17142d965cf9d43f6e460" name="example/application/views/scripts/index/account.phtml" role="doc" />
+   <file baseinstalldir="/" md5sum="04c0b2193030e6834e40c93369f1cdb2" name="example/application/views/scripts/index/index.phtml" role="doc" />
+   <file baseinstalldir="/" md5sum="ddaeb686d76dd45b7be8fd4b546332ff" name="example/application/Bootstrap.php" role="doc" />
+   <file baseinstalldir="/" md5sum="631e77d2d3b16ac282636b2a184ae7e0" name="example/public/index.php" role="doc" />
+   <file baseinstalldir="/" md5sum="85c5a1e94058655f89983e82f3c4df2e" name="Noginn/RateLimit.php" role="php" />
+   <file baseinstalldir="/" md5sum="e2b45ec79778243cdb929ecd77376685" name="tests/Noginn/RateLimitTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="ce407ff5715c837d02b1aba7975bf512" name="tests/TestConfiguration.php.distribution" role="test" />
+   <file baseinstalldir="/" md5sum="83c4c402491dfbc530a7e7c0f45eb315" name="tests/TestHelper.php" role="test" />
+   <file baseinstalldir="/" md5sum="0a389f61cfabd0ea8ade13f6156a3407" name="LICENSE" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>Zend</name>
+    <channel>zend.googlecode.com/svn</channel>
+    <min>1.11.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-02-27</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT License</license>
+   <notes>
+* Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>
