@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>ZendX</name>
+ <channel>empower.github.com/pirum</channel>
+ <summary>Zend Framework Xtras</summary>
+ <description>This is a set of libraries outside of ZendFramework, in the ZendX namespace.  Includes ZendX_JQuery</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>shupp@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-02-27</date>
+ <time>14:21:13</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+* Initial channel release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="af5fe5b73eff1c5492833152bb1b2a55" name="documentation/manual/en/module_specs/ZendX_Console_Process_Unix.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="be4553458f6eba6acf2cd7203d519d6d" name="documentation/manual/en/module_specs/ZendX_JQuery-Form.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="46efffb4dbf91431eefcc389e3c89a5f" name="documentation/manual/en/module_specs/ZendX_JQuery-View-Helpers.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="f6744cca62cddc488729f49baa5bbf1a" name="documentation/manual/en/module_specs/ZendX_JQuery-View-JQuery.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="837a3be7f2f095a56492f6cfcb77946d" name="documentation/manual/en/module_specs/ZendX_JQuery-View.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="699701e6d4edd987f38779906644d616" name="documentation/manual/en/module_specs/ZendX_JQuery.xml" role="doc" />
+   <file baseinstalldir="/" md5sum="59ba2f98b2662ca925add66a69157a48" name="documentation/manual/en/configure.in" role="doc" />
+   <file baseinstalldir="/" md5sum="514e2f5f11cf6835784375573d3ac72c" name="documentation/manual/en/html.xsl.in" role="doc" />
+   <file baseinstalldir="/" md5sum="36a98ba15dced7084cd80fedd65459ed" name="documentation/manual/en/Makefile.in" role="doc" />
+   <file baseinstalldir="/" md5sum="551fe6aac05629e90fbd38a094df8ed1" name="documentation/manual/en/manual-lint.xml.in" role="doc" />
+   <file baseinstalldir="/" md5sum="c72822567f39562f7024444d65baaac2" name="documentation/manual/en/manual.xml.in" role="doc" />
+   <file baseinstalldir="/" md5sum="0e1fe466cb109a13ad180581a929b212" name="documentation/manual/en/README" role="doc" />
+   <file baseinstalldir="/" md5sum="c592943de2527b0026fe0b8e4bbf805d" name="documentation/manual/en/xinclude.mod" role="doc" />
+   <file baseinstalldir="/" md5sum="d8f1a600fb944542cf8d4ba13e21d5ee" name="tests/ZendX/Application/Resource/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="b5fa1561cc5f7f0712df420b114a08f4" name="tests/ZendX/Application/Resource/JqueryTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="3f76857d98283e4a1bc09d1454840d29" name="tests/ZendX/Application/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="bb67acec2392b0546458e477356d27dc" name="tests/ZendX/Console/Process/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="5ba96002ccdb13bd299068e23bad2769" name="tests/ZendX/Console/Process/UnixTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="db5f4a3efd702604376e491f1013483f" name="tests/ZendX/Console/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="cfaea7ba5b793f364ce04b74acd27042" name="tests/ZendX/Db/Adapter/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="17d9898e25f3e434454bff5f2b055f7d" name="tests/ZendX/Db/Adapter/SkipTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="4d5351a82d1a354de45245e5e3aa8dcc" name="tests/ZendX/Db/Profiler/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="5959ba0973a1de393a5dcf02d567f05c" name="tests/ZendX/Db/Select/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="dddc4e5c47bcb03f340d4e3dfcb1773f" name="tests/ZendX/Db/Statement/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="8aeea62925979f0feaf2e99baca16f5b" name="tests/ZendX/Db/Table/Relationships/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="88c7940cd88db7e5a93cc163e7851a83" name="tests/ZendX/Db/Table/Row/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="424bab332c500e08256363f4de533d21" name="tests/ZendX/Db/Table/Rowset/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="423ec83a79f2e6f02070df2f7cf16b37" name="tests/ZendX/Db/Table/Select/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="80ae5b05c02b35af8cef1da1fd2295a7" name="tests/ZendX/Db/Table/FirebirdTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="a0233af928a42db3d5bca25390902897" name="tests/ZendX/Db/Table/TestSetup.php" role="test" />
+   <file baseinstalldir="/" md5sum="eef022108aec74dd8ed56d60ef985110" name="tests/ZendX/Db/TestUtil/Firebird.php" role="test" />
+   <file baseinstalldir="/" md5sum="fc1fae3320842c6908c82afcaf5fb9d0" name="tests/ZendX/Db/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="c5c5267534fc7cb200f8ae0936454b25" name="tests/ZendX/Db/SkipTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="7091b269f0f24388c06b5e3191b32ce5" name="tests/ZendX/Db/TestSetup.php" role="test" />
+   <file baseinstalldir="/" md5sum="c96bb184e9208795e4fb883185212927" name="tests/ZendX/JQuery/Form/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="0f1ba37a631e5fba40f30cbebaf74381" name="tests/ZendX/JQuery/Form/DecoratorTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="937137918d7a768fdfae65d36448907f" name="tests/ZendX/JQuery/Form/ElementTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="7ca0974bb1a973ab2ae76eff2a937dee" name="tests/ZendX/JQuery/View/AccordionContainerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="829e9ec8ec7e89160b8fefd12f37b9b5" name="tests/ZendX/JQuery/View/AjaxLinkTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="3abbffe97a34f6d310c35e019b9b951b" name="tests/ZendX/JQuery/View/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="10843bd4cb4b384ca0809a301b782014" name="tests/ZendX/JQuery/View/AutoCompleteTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="4fe7c97c7acddb2fa2e053a8c9605419" name="tests/ZendX/JQuery/View/ColorPickerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="feea5af03f122b51744bfa26134ccbed" name="tests/ZendX/JQuery/View/DatePickerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="7519038df601bc817ea6950935c83374" name="tests/ZendX/JQuery/View/DialogContainerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="d877a5ea61780d288894247ba77b80ba" name="tests/ZendX/JQuery/View/jQueryTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="44377c00db7c4578ddc591ca6d698cd6" name="tests/ZendX/JQuery/View/jQueryTestCase.php" role="test" />
+   <file baseinstalldir="/" md5sum="7e09caaa149b54b46ad57eaa580e3547" name="tests/ZendX/JQuery/View/SliderTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="44eaa5f4923c7bc8daad64dde8f4a94d" name="tests/ZendX/JQuery/View/SpinnerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="ab60256ac6f77f85120fa8fffdcfde1e" name="tests/ZendX/JQuery/View/TabContainerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="e19bc78bc83037a6aa8eab1cbacfd028" name="tests/ZendX/JQuery/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="e2ef03a904392924fe7face00bb87d69" name="tests/ZendX/JQuery/AutoCompleteActionHelperTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="0dcee55fe310119675f5d9cd2d1978c3" name="tests/ZendX/JQuery/JQueryTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="3f8b81fdf1b914fcb01d8a2dd6292a5b" name="tests/ZendX/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="7190de70d5aa1a240ba996f0103c81a7" name="tests/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="371e3148e0f739736eae0945883a857c" name="tests/TestConfiguration.php.dist" role="test" />
+   <file baseinstalldir="/" md5sum="e705a1b594dc4fa81990b06c1760a0c7" name="tests/TestHelper.php" role="test" />
+   <file baseinstalldir="/" md5sum="1d57464827d242224195122a550290a3" name="ZendX/Application/Resource/Jquery.php" role="php" />
+   <file baseinstalldir="/" md5sum="71dc5dec444e81c423054ebd42cfa884" name="ZendX/Console/Process/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="cabf8b668b5062e8acb348f353170ac6" name="ZendX/Console/Process/Unix.php" role="php" />
+   <file baseinstalldir="/" md5sum="b2e71b4b9f4741e5adb7a30e13fb4f90" name="ZendX/Console/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="3f01653802d2b6f182d659397c91846f" name="ZendX/Db/Adapter/Firebird/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="43c267b665880fc813b31aeb821ae42a" name="ZendX/Db/Adapter/Firebird.php" role="php" />
+   <file baseinstalldir="/" md5sum="95acbd0e223b4890cefb345df9bed9ce" name="ZendX/Db/Statement/Firebird/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="07a87917c50569f77a539b8fcf7d5bb2" name="ZendX/Db/Statement/Firebird.php" role="php" />
+   <file baseinstalldir="/" md5sum="ffc2fd5c9a00f60fc58636d4b1d56a37" name="ZendX/JQuery/Controller/Action/Helper/AutoComplete.php" role="php" />
+   <file baseinstalldir="/" md5sum="f26b68ea6da775e0687892e0f615c953" name="ZendX/JQuery/Form/Decorator/AccordionContainer.php" role="php" />
+   <file baseinstalldir="/" md5sum="ee5fc1da6b17a44a77361e71a6745a66" name="ZendX/JQuery/Form/Decorator/AccordionPane.php" role="php" />
+   <file baseinstalldir="/" md5sum="10cdf0f5a785e02b223a18a40061e2b0" name="ZendX/JQuery/Form/Decorator/DialogContainer.php" role="php" />
+   <file baseinstalldir="/" md5sum="7f3090da0fa99c86d558fa36d8027a7c" name="ZendX/JQuery/Form/Decorator/TabContainer.php" role="php" />
+   <file baseinstalldir="/" md5sum="3a5c6c5f68fa6f2a5b1a9eeeb8ee17c8" name="ZendX/JQuery/Form/Decorator/TabPane.php" role="php" />
+   <file baseinstalldir="/" md5sum="97ad13da7ddf2c0c2d47a07edc663e1d" name="ZendX/JQuery/Form/Decorator/UiWidgetContainer.php" role="php" />
+   <file baseinstalldir="/" md5sum="4155fc50aca7239191d5410aa3b41718" name="ZendX/JQuery/Form/Decorator/UiWidgetElement.php" role="php" />
+   <file baseinstalldir="/" md5sum="48cb0b32f316e923f14ae2878d28519b" name="ZendX/JQuery/Form/Decorator/UiWidgetElementMarker.php" role="php" />
+   <file baseinstalldir="/" md5sum="e189092e90c91a1dee29f9847dd4b937" name="ZendX/JQuery/Form/Decorator/UiWidgetPane.php" role="php" />
+   <file baseinstalldir="/" md5sum="40d62bbe010096a1c26b2b80f00293a0" name="ZendX/JQuery/Form/Element/AutoComplete.php" role="php" />
+   <file baseinstalldir="/" md5sum="91d6a1d99ce7d1e1c2e1279b3fe9a6d1" name="ZendX/JQuery/Form/Element/ColorPicker.php" role="php" />
+   <file baseinstalldir="/" md5sum="0a81f10ba995e639361b82134cd8ffc2" name="ZendX/JQuery/Form/Element/DatePicker.php" role="php" />
+   <file baseinstalldir="/" md5sum="83840d41ccbfd49b5a8fb99f28d3ebce" name="ZendX/JQuery/Form/Element/Slider.php" role="php" />
+   <file baseinstalldir="/" md5sum="8bb1656af3a4dbae8ca3dcd2fa8090bc" name="ZendX/JQuery/Form/Element/Spinner.php" role="php" />
+   <file baseinstalldir="/" md5sum="bded9899fd1fe7d28c1706d017eaa765" name="ZendX/JQuery/Form/Element/UiWidget.php" role="php" />
+   <file baseinstalldir="/" md5sum="6832d730c596665538c0db0fc21465a1" name="ZendX/JQuery/Form/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="f58c8664e0b2345c776104a0be390dc0" name="ZendX/JQuery/View/Helper/JQuery/Container.php" role="php" />
+   <file baseinstalldir="/" md5sum="45f0ce0d2b358e3edb611f3f8fb9f4c8" name="ZendX/JQuery/View/Helper/AccordionContainer.php" role="php" />
+   <file baseinstalldir="/" md5sum="a31a7bf9958f2c58dd82ed771958c702" name="ZendX/JQuery/View/Helper/AccordionPane.php" role="php" />
+   <file baseinstalldir="/" md5sum="691ecf1e1a997ef8546cd6f27b91c939" name="ZendX/JQuery/View/Helper/AjaxLink.php" role="php" />
+   <file baseinstalldir="/" md5sum="8a5aaa2c66d0aad962820294a0e26fbe" name="ZendX/JQuery/View/Helper/AutoComplete.php" role="php" />
+   <file baseinstalldir="/" md5sum="f83ee37f052dae1b7e2c1957fac0f05d" name="ZendX/JQuery/View/Helper/ColorPicker.php" role="php" />
+   <file baseinstalldir="/" md5sum="f30f40da06e51de064764efd62e43481" name="ZendX/JQuery/View/Helper/DatePicker.php" role="php" />
+   <file baseinstalldir="/" md5sum="1cc122a848e86933672d2f3b6c48c360" name="ZendX/JQuery/View/Helper/DialogContainer.php" role="php" />
+   <file baseinstalldir="/" md5sum="8fb3cd0afed4743b3eded465629b7c6e" name="ZendX/JQuery/View/Helper/JQuery.php" role="php" />
+   <file baseinstalldir="/" md5sum="01a0040f45c1f33c03c6d8c3a543abb5" name="ZendX/JQuery/View/Helper/Slider.php" role="php" />
+   <file baseinstalldir="/" md5sum="04a72327905057e64b5dcf50fc7bafdf" name="ZendX/JQuery/View/Helper/Spinner.php" role="php" />
+   <file baseinstalldir="/" md5sum="c033e1f94aefcbf1dd96d3be595f4dff" name="ZendX/JQuery/View/Helper/TabContainer.php" role="php" />
+   <file baseinstalldir="/" md5sum="f27e574f029aba384b1b452b9ff44a4a" name="ZendX/JQuery/View/Helper/TabPane.php" role="php" />
+   <file baseinstalldir="/" md5sum="df1a18d5ee4237b4ebe72b96684e901d" name="ZendX/JQuery/View/Helper/UiWidget.php" role="php" />
+   <file baseinstalldir="/" md5sum="88acfcc2024b9b82447e9136fc65ed5e" name="ZendX/JQuery/View/Helper/UiWidgetPane.php" role="php" />
+   <file baseinstalldir="/" md5sum="982103fe0ef8e38ba71b0ba0035db7ed" name="ZendX/JQuery/View/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="169508fea73d8e233f3aadc828111175" name="ZendX/JQuery/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="ce957195f1c2597ffdf123289c60dd9d" name="ZendX/JQuery/Form.php" role="php" />
+   <file baseinstalldir="/" md5sum="d7d6357507f547c3358c1822d10aad3b" name="ZendX/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="903396c43926dbc24d5aeb22014ca49f" name="ZendX/JQuery.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>Zend</name>
+    <channel>zend.googlecode.com/svn</channel>
+    <min>1.11.0</min>
+   </package>
+   <extension>
+    <name>date</name>
+   </extension>
+   <extension>
+    <name>pcre</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-09-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Initial release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-02-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Initial channel release
+   </notes>
+  </release>
+ </changelog>
+</package>

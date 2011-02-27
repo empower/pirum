@@ -64,6 +64,17 @@ directory for examples.
             This is the empower fork of the project
         </content>
     </entry>    <entry>
+        <title>ZendX 0.2.0 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/ZendX-0.2.0.tgz" />
+        <id>ZendX-0.2.0</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-02-27T14:21:13-08:00</updated>
+        <content>
+            This is a set of libraries outside of ZendFramework, in the ZendX namespace.  Includes ZendX_JQuery
+        </content>
+    </entry>    <entry>
         <title>Zend_Cache_Backend_Mock 0.1.0 (alpha)</title>
         <link href="http://empower.github.com/pirum//get/Zend_Cache_Backend_Mock-0.1.0.tgz" />
         <id>Zend_Cache_Backend_Mock-0.1.0</id>
