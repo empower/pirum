@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/ec_xhprof">EC_XHProf</p>
+    <c>empower.github.com/pirum</c>
+    <v>0.1.0</v>
+    <a>0.1.0</a>
+    <mp>5.0.0</mp>
+    <st>alpha</st>
+    <l>New BSD License</l>
+    <m>shupp</m>
+    <s>EC_XHProf is a simple class for managing XHProf runs.</s>
+    <d>EC_XHProf is a simple class for managing XHProf runs and storing them according
+to virtual host ServerNames.  You can also clear out runs.  See the examples
+directory for examples.</d>
+    <da>2011-02-27 13:13:33</da>
+    <n>
+* Initial release
+ </n>
+    <f>3276</f>
+    <g>http://empower.github.com/pirum//get/EC_XHProf-0.1.0</g>
+    <x xlink:href="package.0.1.0.xml"/>
+</r>

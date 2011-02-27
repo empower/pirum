@@ -40,6 +40,19 @@
             Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
         </content>
     </entry>    <entry>
+        <title>EC_XHProf 0.1.0 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/EC_XHProf-0.1.0.tgz" />
+        <id>EC_XHProf-0.1.0</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-02-27T13:13:33-08:00</updated>
+        <content>
+            EC_XHProf is a simple class for managing XHProf runs and storing them according
+to virtual host ServerNames.  You can also clear out runs.  See the examples
+directory for examples.
+        </content>
+    </entry>    <entry>
         <title>Zend_Cache_Backend_Mock 0.1.0 (alpha)</title>
         <link href="http://empower.github.com/pirum//get/Zend_Cache_Backend_Mock-0.1.0.tgz" />
         <id>Zend_Cache_Backend_Mock-0.1.0</id>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>EC_XHProf</name>
+ <channel>empower.github.com/pirum</channel>
+ <summary>EC_XHProf is a simple class for managing XHProf runs.</summary>
+ <description>EC_XHProf is a simple class for managing XHProf runs and storing them according
+to virtual host ServerNames.  You can also clear out runs.  See the examples
+directory for examples.</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>hostmaster@shupp.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-02-27</date>
+ <time>13:13:33</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+* Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="8f04a2e16d64298b33cdbfe5633475aa" name="EC/XHProf.php" role="php" />
+   <file baseinstalldir="/" md5sum="ebf10afa34d810ef9e857c4e4da5e63a" name="examples/init.php" role="doc" />
+   <file baseinstalldir="/" md5sum="2f3d9380ed7af2d466f52f6cbe109dd6" name="examples/list.php" role="doc" />
+   <file baseinstalldir="/" md5sum="0b5f6ccef1b41294e7f18e7db1641e89" name="tests/EC/XHProfTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="7de63b98b366e2aafb64e5f0fb152a89" name="README" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <extension>
+    <name>xhprof</name>
+   </extension>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-02-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>
