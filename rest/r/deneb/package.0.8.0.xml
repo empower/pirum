@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Deneb</name>
+ <channel>empower.github.com/pirum</channel>
+ <summary>Simple CRUD layer for DB based models</summary>
+ <description>Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>hostmaster@shupp.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-05-12</date>
+ <time>10:14:28</time>
+ <version>
+  <release>0.8.0</release>
+  <api>0.8.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+* Switched to EC_Cache dependency and added support for multi get/set methods in memcached
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="af06b1cd7dcb55ede1e54ccbfc558e29" name="Deneb/Collection/Common.php" role="php" />
+   <file baseinstalldir="/" md5sum="7dfb09320920738bdb0e627ebc8443a6" name="Deneb/DB/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="7a44c003b10c0a9f3f9c0ae2b75d668d" name="Deneb/DB/Selector.php" role="php" />
+   <file baseinstalldir="/" md5sum="61e9a32da0e81541b710895281bc56e6" name="Deneb/Exception/NotFound.php" role="php" />
+   <file baseinstalldir="/" md5sum="34b0c69f615662d3b311c9c4c05c58d4" name="Deneb/Object/Common.php" role="php" />
+   <file baseinstalldir="/" md5sum="66c5b73f794b46b7970c12d12abb5f95" name="Deneb/Object/Interface.php" role="php" />
+   <file baseinstalldir="/" md5sum="4627fb3e8f675f6ce21a2c3c33f47791" name="Deneb/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="a6fb4fe29e3ca0fbb72c4e01063e8266" name="tests/Deneb/DB/SelectorTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="ae579d979f07c24eaf31867d7484c5c1" name="tests/Deneb/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="3e52eeb2534f128053aa98bb912bc906" name="tests/Deneb/Dummy.php" role="test" />
+   <file baseinstalldir="/" md5sum="4efeec8736de1a9a594dcd49b54b5591" name="tests/Deneb/DummyCache.php" role="test" />
+   <file baseinstalldir="/" md5sum="7ecd1600a8fcb82066c056858b3ece01" name="tests/Deneb/DummyCacheCollection.php" role="test" />
+   <file baseinstalldir="/" md5sum="0e806ae18bd4f5e6bbab736645615488" name="tests/Deneb/DummyCacheCollectionTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="b842848db2fe5d5c13c883ae516ef18d" name="tests/Deneb/DummyCacheMultiCollectionTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="890ad92bac5380569f6b8afdb93e4448" name="tests/Deneb/DummyCacheTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="7abdb4442627ad55127a991bbd7d8b1e" name="tests/Deneb/DummyCollection.php" role="test" />
+   <file baseinstalldir="/" md5sum="5ec76cde2a687b183e2d704db3b1495b" name="tests/Deneb/DummyCollectionTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="aa8feba52c0fc958cb42feaf6496d3bf" name="tests/Deneb/DummyTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="97e9c3a50a46d2adc6326cfcaaa620d5" name="tests/Deneb/TestCase.php" role="test" />
+   <file baseinstalldir="/" md5sum="3ad056719ef59e07bb184e2e999708bc" name="tests/DenebTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="76ef803de94cde706283e5d127379cae" name="tests/FoobarException.php" role="test" />
+   <file baseinstalldir="/" md5sum="49346d7797670364e8256ac5b0a78f53" name="Deneb.php" role="php" />
+   <file baseinstalldir="/" md5sum="64261e38c14d5343c6d902f71bdaefe3" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>Zend</name>
+    <channel>zend.googlecode.com/svn</channel>
+    <min>1.11.5</min>
+   </package>
+   <package>
+    <name>EC_Cache</name>
+    <channel>empower.github.com/pirum</channel>
+    <min>0.1.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-09-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Initial release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-11-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added support for custom exceptions
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-12-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added countAll() method for collections
+* Added delayed fetch (no automatic trip to DB) for collections
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.4.0</release>
+    <api>0.4.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-01-28</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added support for creating a record with the primary key value supplied
+* After creation, all values are updated in the current object
+* Updated tests to work with PHPUnit 3.5
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.5.0</release>
+    <api>0.5.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-02-02</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added automatic caching
+* Moved to empower pear channel
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.6.0</release>
+    <api>0.6.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-02-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Removed all trailing whitespace
+* Updated doc blocks
+* Updated Deneb_Object_Interface to include __unset(), __isset(), and get()
+* Fixed incorrect reference to options in Deneb_Collection_Common
+* Added protected fields - fields not returned by get()
+* Update README.md
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.6.1</release>
+    <api>0.6.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-02-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added support for status bitfield columns, including helpers
+* Added table name prefix to where clause creation
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.6.2</release>
+    <api>0.6.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-03-08</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added option to use integer timestamps for date_created (Dan Copeland)
+* Write only modified properties back to the db on update (Dan Copeland)
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.7.0</release>
+    <api>0.7.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-04-03</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Use $model-&gt;fetchAll($sql) / $model-&gt;fetchColumn($sql) for automatic debug level logging of SQL queries with execution time
+* Slow queries logged at warning level - use Deneb::setSlowQueryThreshold() to define slow
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.7.1</release>
+    <api>0.7.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-04-04</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Log SQL used when fetchAll throw an exception
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.7.2</release>
+    <api>0.7.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-04-27</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Fixed a caching bug with secondary indexes - after update a stale object would still be cached under the old value for the index
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.8.0</release>
+    <api>0.8.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-05-12</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Switched to EC_Cache dependency and added support for multi get/set methods in memcached
+   </notes>
+  </release>
+ </changelog>
+</package>
