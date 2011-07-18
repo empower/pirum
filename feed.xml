@@ -7,6 +7,17 @@
     </author>
 
     <entry>
+        <title>Deneb 0.8.1 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/Deneb-0.8.1.tgz" />
+        <id>Deneb-0.8.1</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-07-18T21:40:46-07:00</updated>
+        <content>
+            Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
+        </content>
+    </entry>    <entry>
         <title>Deneb 0.8.0 (alpha)</title>
         <link href="http://empower.github.com/pirum//get/Deneb-0.8.0.tgz" />
         <id>Deneb-0.8.0</id>
@@ -95,6 +106,17 @@
             Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
         </content>
     </entry>    <entry>
+        <title>EC_Cache 0.1.2 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/EC_Cache-0.1.2.tgz" />
+        <id>EC_Cache-0.1.2</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-07-18T21:47:22-07:00</updated>
+        <content>
+            Supports loadMulti() and saveMulti() interface.  And with the mock backend, all items are stored in the backend instance (memory).  Allows for proper mocking.
+        </content>
+    </entry>    <entry>
         <title>EC_Cache 0.1.1 (alpha)</title>
         <link href="http://empower.github.com/pirum//get/EC_Cache-0.1.1.tgz" />
         <id>EC_Cache-0.1.1</id>
@@ -163,6 +185,17 @@ directory for examples.
         <updated>2011-02-27T14:44:00-08:00</updated>
         <content>
             The PHP_CodeSniffer implementation of the EC coding standard
+        </content>
+    </entry>    <entry>
+        <title>ZendX 0.2.1 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/ZendX-0.2.1.tgz" />
+        <id>ZendX-0.2.1</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-07-18T21:50:13-07:00</updated>
+        <content>
+            This is a set of libraries outside of ZendFramework, in the ZendX namespace.  Includes ZendX_JQuery
         </content>
     </entry>    <entry>
         <title>ZendX 0.2.0 (alpha)</title>
