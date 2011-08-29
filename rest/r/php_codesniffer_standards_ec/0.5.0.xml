@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/php_codesniffer_standards_ec">PHP_CodeSniffer_Standards_EC</p>
+    <c>empower.github.com/pirum</c>
+    <v>0.5.0</v>
+    <st>alpha</st>
+    <l>New BSD License</l>
+    <m>shupp</m>
+    <s>Empower Campaigns coding standards implementation using PHP_CodeSniffer</s>
+    <d>The PHP_CodeSniffer implementation of the EC coding standard</d>
+    <da>2011-08-29 16:59:19</da>
+    <n>
+* Added phpcs rule for lowercase true, false, and null to EC standard
+ </n>
+    <f>3237</f>
+    <g>http://empower.github.com/pirum//get/PHP_CodeSniffer_Standards_EC-0.5.0</g>
+    <x xlink:href="package.0.5.0.xml"/>
+</r>
