@@ -1,0 +1,1 @@
+a:1:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:3:{s:4:"name";s:2:"zf";s:7:"channel";s:17:"pear.zfcampus.org";s:3:"min";s:7:"1.11.10";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"date";}i:1;a:1:{s:4:"name";s:4:"pcre";}}}}
