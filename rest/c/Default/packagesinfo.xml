@@ -13,6 +13,10 @@
 
         <a>
             <r>
+                <v>0.9.3</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.9.2</v>
                 <s>alpha</s>
             </r>
@@ -63,6 +67,10 @@
 
         </a>
 
+        <deps>
+            <v>0.9.3</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:4:"Zend";s:7:"channel";s:24:"empower.github.com/pirum";s:3:"min";s:7:"1.11.11";}i:1;a:3:{s:4:"name";s:8:"EC_Cache";s:7:"channel";s:24:"empower.github.com/pirum";s:3:"min";s:5:"0.1.1";}}}}</d>
+        </deps>
         <deps>
             <v>0.9.2</v>
             <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:2:{i:0;a:3:{s:4:"name";s:2:"zf";s:7:"channel";s:17:"pear.zfcampus.org";s:3:"min";s:6:"1.11.9";}i:1;a:3:{s:4:"name";s:8:"EC_Cache";s:7:"channel";s:24:"empower.github.com/pirum";s:3:"min";s:5:"0.1.1";}}}}</d>
@@ -125,6 +133,10 @@
 
         <a>
             <r>
+                <v>0.1.5</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.1.4</v>
                 <s>alpha</s>
             </r>
@@ -147,6 +159,10 @@
 
         </a>
 
+        <deps>
+            <v>0.1.5</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:3:{s:4:"name";s:4:"Zend";s:7:"channel";s:24:"empower.github.com/pirum";s:3:"min";s:7:"1.11.11";}}}</d>
+        </deps>
         <deps>
             <v>0.1.4</v>
             <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:3:{s:4:"name";s:2:"zf";s:7:"channel";s:17:"pear.zfcampus.org";s:3:"min";s:7:"1.11.10";}}}</d>
@@ -319,6 +335,10 @@ directory for examples.</d>
 
         <a>
             <r>
+                <v>0.2.3</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.2.2</v>
                 <s>alpha</s>
             </r>
@@ -333,6 +353,10 @@ directory for examples.</d>
 
         </a>
 
+        <deps>
+            <v>0.2.3</v>
+            <d>a:1:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:3:{s:4:"name";s:4:"Zend";s:7:"channel";s:24:"empower.github.com/pirum";s:3:"min";s:7:"1.11.11";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"date";}i:1;a:1:{s:4:"name";s:4:"pcre";}}}}</d>
+        </deps>
         <deps>
             <v>0.2.2</v>
             <d>a:1:{s:8:"required";a:4:{s:3:"php";a:1:{s:3:"min";s:5:"5.1.2";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:7:"package";a:3:{s:4:"name";s:2:"zf";s:7:"channel";s:17:"pear.zfcampus.org";s:3:"min";s:7:"1.11.10";}s:9:"extension";a:2:{i:0;a:1:{s:4:"name";s:4:"date";}i:1;a:1:{s:4:"name";s:4:"pcre";}}}}</d>

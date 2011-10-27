@@ -7,6 +7,17 @@
     </author>
 
     <entry>
+        <title>Deneb 0.9.3 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/Deneb-0.9.3.tgz" />
+        <id>Deneb-0.9.3</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-10-27T18:35:31-07:00</updated>
+        <content>
+            Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
+        </content>
+    </entry>    <entry>
         <title>Deneb 0.9.2 (alpha)</title>
         <link href="http://empower.github.com/pirum//get/Deneb-0.9.2.tgz" />
         <id>Deneb-0.9.2</id>
@@ -137,6 +148,17 @@
         <updated>2011-02-02T12:43:46-08:00</updated>
         <content>
             Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
+        </content>
+    </entry>    <entry>
+        <title>EC_Cache 0.1.5 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/EC_Cache-0.1.5.tgz" />
+        <id>EC_Cache-0.1.5</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-10-27T18:33:09-07:00</updated>
+        <content>
+            Supports loadMulti() and saveMulti() interface.  And with the mock backend, all items are stored in the backend instance (memory).  Allows for proper mocking.
         </content>
     </entry>    <entry>
         <title>EC_Cache 0.1.4 (alpha)</title>
@@ -295,6 +317,17 @@ directory for examples.
         <updated>2011-10-27T00:35:57-07:00</updated>
         <content>
             Zend Framework 1 as a PEAR package
+        </content>
+    </entry>    <entry>
+        <title>ZendX 0.2.3 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/ZendX-0.2.3.tgz" />
+        <id>ZendX-0.2.3</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-10-27T18:38:03-07:00</updated>
+        <content>
+            This is a set of libraries outside of ZendFramework, in the ZendX namespace.  Includes ZendX_JQuery
         </content>
     </entry>    <entry>
         <title>ZendX 0.2.2 (alpha)</title>
