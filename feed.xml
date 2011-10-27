@@ -242,6 +242,17 @@ to virtual host ServerNames.  You can also clear out runs.  See the examples
 directory for examples.
         </content>
     </entry>    <entry>
+        <title>Noginn_RateLimit 0.1.2 (alpha)</title>
+        <link href="http://empower.github.com/pirum//get/Noginn_RateLimit-0.1.2.tgz" />
+        <id>Noginn_RateLimit-0.1.2</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-10-27T19:53:56-07:00</updated>
+        <content>
+            This is the empower fork of the project
+        </content>
+    </entry>    <entry>
         <title>Noginn_RateLimit 0.1.1 (alpha)</title>
         <link href="http://empower.github.com/pirum//get/Noginn_RateLimit-0.1.1.tgz" />
         <id>Noginn_RateLimit-0.1.1</id>
