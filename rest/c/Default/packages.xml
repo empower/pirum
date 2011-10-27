@@ -5,6 +5,7 @@
   <p xlink:href="/rest/p/ec_xhprof">EC_XHProf</p>
   <p xlink:href="/rest/p/noginn_ratelimit">Noginn_RateLimit</p>
   <p xlink:href="/rest/p/php_codesniffer_standards_ec">PHP_CodeSniffer_Standards_EC</p>
+  <p xlink:href="/rest/p/zend">Zend</p>
   <p xlink:href="/rest/p/zendx">ZendX</p>
   <p xlink:href="/rest/p/zend_cache_backend_mock">Zend_Cache_Backend_Mock</p>
 

@@ -275,6 +275,28 @@ directory for examples.
             The PHP_CodeSniffer implementation of the EC coding standard
         </content>
     </entry>    <entry>
+        <title>Zend 1.11.11 (stable)</title>
+        <link href="http://empower.github.com/pirum//get/Zend-1.11.11.tgz" />
+        <id>Zend-1.11.11</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-10-27T18:26:33-07:00</updated>
+        <content>
+            Zend Framework 1 as a PEAR package
+        </content>
+    </entry>    <entry>
+        <title>Zend 1.11.10 (stable)</title>
+        <link href="http://empower.github.com/pirum//get/Zend-1.11.10.tgz" />
+        <id>Zend-1.11.10</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-10-27T00:35:57-07:00</updated>
+        <content>
+            Zend Framework 1 as a PEAR package
+        </content>
+    </entry>    <entry>
         <title>ZendX 0.2.2 (alpha)</title>
         <link href="http://empower.github.com/pirum//get/ZendX-0.2.2.tgz" />
         <id>ZendX-0.2.2</id>

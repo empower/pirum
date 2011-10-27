@@ -276,6 +276,38 @@ directory for examples.</d>
 
     </pi>    <pi>
         <p>
+            <n>Zend</n>
+            <c>empower.github.com/pirum</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>New BSD License</l>
+            <s>Zend Framework</s>
+            <d>Zend Framework 1 as a PEAR package</d>
+            <r xlink:href="/rest/r/zend" />
+        </p>
+
+        <a>
+            <r>
+                <v>1.11.11</v>
+                <s>stable</s>
+            </r>
+            <r>
+                <v>1.11.10</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>1.11.11</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+        <deps>
+            <v>1.11.10</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.3";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>ZendX</n>
             <c>empower.github.com/pirum</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
