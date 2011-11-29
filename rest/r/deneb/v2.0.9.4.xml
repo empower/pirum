@@ -2,20 +2,19 @@
 <r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
     <p xlink:href="/rest/p/deneb">Deneb</p>
     <c>empower.github.com/pirum</c>
-    <v>0.5.0</v>
-    <a>0.5.0</a>
+    <v>0.9.4</v>
+    <a>0.9.4</a>
     <mp>5.0.0</mp>
     <st>alpha</st>
     <l>New BSD License</l>
     <m>shupp</m>
     <s>Simple CRUD layer for DB based models</s>
     <d>Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors</d>
-    <da>2011-02-02 12:43:46</da>
+    <da>2011-11-29 00:48:48</da>
     <n>
-* Added automatic caching
-* Moved to empower pear channel
+* Fixed issue where secondary index caches are not invalidated
  </n>
-    <f>13957</f>
-    <g>http://empower.github.com/pirum/get/Deneb-0.5.0</g>
-    <x xlink:href="package.0.5.0.xml"/>
+    <f>20117</f>
+    <g>http://empower.github.com/pirum/get/Deneb-0.9.4</g>
+    <x xlink:href="package.0.9.4.xml"/>
 </r>

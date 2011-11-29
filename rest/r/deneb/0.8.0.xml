@@ -13,6 +13,6 @@
 * Switched to EC_Cache dependency and added support for multi get/set methods in memcached
  </n>
     <f>19618</f>
-    <g>http://empower.github.com/pirum//get/Deneb-0.8.0</g>
+    <g>http://empower.github.com/pirum/get/Deneb-0.8.0</g>
     <x xlink:href="package.0.8.0.xml"/>
 </r>

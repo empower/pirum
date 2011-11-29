@@ -14,6 +14,6 @@
 * Slow queries logged at warning level - use Deneb::setSlowQueryThreshold() to define slow
  </n>
     <f>17573</f>
-    <g>http://empower.github.com/pirum//get/Deneb-0.7.0</g>
+    <g>http://empower.github.com/pirum/get/Deneb-0.7.0</g>
     <x xlink:href="package.0.7.0.xml"/>
 </r>

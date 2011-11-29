@@ -13,6 +13,6 @@
 * Fixed a caching bug with secondary indexes - after update a stale object would still be cached under the old value for the index
  </n>
     <f>18486</f>
-    <g>http://empower.github.com/pirum//get/Deneb-0.7.2</g>
+    <g>http://empower.github.com/pirum/get/Deneb-0.7.2</g>
     <x xlink:href="package.0.7.2.xml"/>
 </r>

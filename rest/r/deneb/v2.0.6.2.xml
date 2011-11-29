@@ -16,6 +16,6 @@
 * Write only modified properties back to the db on update (Dan Copeland)
  </n>
     <f>16773</f>
-    <g>http://empower.github.com/pirum//get/Deneb-0.6.2</g>
+    <g>http://empower.github.com/pirum/get/Deneb-0.6.2</g>
     <x xlink:href="package.0.6.2.xml"/>
 </r>

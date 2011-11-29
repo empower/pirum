@@ -15,6 +15,6 @@
 * Added phpcs rule for lowercase true, false, and null to EC standard
  </n>
     <f>3237</f>
-    <g>http://empower.github.com/pirum//get/PHP_CodeSniffer_Standards_EC-0.5.0</g>
+    <g>http://empower.github.com/pirum/get/PHP_CodeSniffer_Standards_EC-0.5.0</g>
     <x xlink:href="package.0.5.0.xml"/>
 </r>
